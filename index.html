@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+
+            <div class="navbar">
+               
+                <nav>
+                    <ul id="MenuItems">
+                        <li ><a href="#" style="color: #D1884F;"><i class="fa fa-home" style="margin-right: 8px; color: #D1884F;"></i>Home</a></li>
+                        <li ><a href="#"><i class="fa fa-user" style="margin-right: 8px;"></i></i>About Me</a></li>
+                        <li ><a href="#"><i class="fa fa-phone" style="margin-right: 8px;"></i>Contact Me</a></li>
+                    </ul>
+                </nav>
+               
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+
+         </header>
+        
+        <section class="row">
+          
+                <div class="col-1">
+                    <p class="wel">Welcome to my site</p>
+                    <h1>Hi, I'm Yazan, a front-end <span>Developer .</span></h1>
+                    <p class="detal">
+                        I am a graduate of Al-Azhar University, specializing in computer systems engineering, and I currently work as a freelance front-end developer.
+                        <span class="more-text " id="more-text">I have experience in HTML, CSS, JS, and React. Training at Quiz Plus Company as a front-end developer.</span>
+                        <a class="wel" href="javascript:void(0);" id="read-more" onclick="toggleText()">Read More</a>
+                    </p>
+                
+                    <button  class="btn1">Hire Me !</button>
+                    <button  class="btn2">See My Project</button>
+                </div>
+                <div class="col-2">
+                    <img src="images/profile.png" alt="profile">
+                </div>
+           
+        </section>
+    </div>
+   
+<script src="index.js"></script> 
+</body>
+</html>
